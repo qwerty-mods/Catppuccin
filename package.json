@@ -1,0 +1,29 @@
+{
+  "name": "catppuccin-discord-theme",
+  "version": "1.0.0",
+  "description": "A soothing pastel mocha flavored theme for Discord.",
+  "repository": "github:TakenMC/Catppuccin",
+  "author": "Taken <taken@mairimashita.org>",
+  "contributors": [
+    "Taken <taken@mairimashita.org>",
+    "Saltssaumure <themes@saltssaumure.net>",
+    "Catppuccin <core@catppuccin.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "rp:dev": "replugged build theme --watch",
+    "rp": "replugged bundle theme",
+    "rp:all": "replugged bundle theme --all",
+    "lint": "prettier ./scss --check",
+    "lint:fix": "prettier ./scss --write --log-level warn",
+    "release": "replugged release"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@catppuccin/highlightjs": "^0.1.3",
+    "@catppuccin/palette": "^0.2.0",
+    "prettier": "^3.0.3",
+    "replugged": "^4.6.5"
+  }
+}
