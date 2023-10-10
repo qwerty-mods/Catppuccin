@@ -1,0 +1,26 @@
+{
+  "id": "org.mairimashita.Catppuccin.Macchiato",
+  "name": "Catppuccin - Macchiato",
+  "description": "A soothing pastel frappe flavored theme.",
+  "author": [
+      {
+          "name": "Taken",
+          "github": "TakenMC"
+          "discordID": "223110287165882368"
+      },
+      {
+          "name": "catppuccin",
+          "github": "catppuccin"
+      }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "org.mairimashita.Catppuccin.Macchiato"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "../scss/",
+  "source": "https://github.com/TakenMC/Catppuccin",
+  "image": ["https://github.com/TakenMC/Catppuccin/blob/main/assets/preview.webp"]
+}
