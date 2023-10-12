@@ -1,0 +1,45 @@
+{
+    "id": "org.mairimashita.Catppuccin",
+    "name": "Catppuccin",
+    "description": "A soothing pastel flavored theme.",
+    "author": [
+        {
+            "name": "Taken",
+            "github": "TakenMC",
+            "discordID": "223110287165882368"
+        },
+        {
+            "name": "catppuccin",
+            "github": "catppuccin"
+        }
+    ],
+    "version": "1.0.0",
+    "updater": {
+      "type": "store",
+      "id": "org.mairimashita.Catppuccin"
+    },
+    "license": "MIT",
+    "type": "replugged-theme",
+    "presets": [
+			{
+				"label": "Frappe",
+				"path": "./scss/frappe.scss",
+				"default": true
+			},
+			{
+				"label": "Latte",
+				"path": "./scss/latte.scss"
+			},
+			{
+				"label": "Mocha",
+				"path": "./scss/mocha.scss"
+			},
+			{
+				"label": "Macchiato",
+				"path": "./scss/macchiato.scss"
+			}
+    ],
+    "source": "https://github.com/TakenMC/Catppuccin",
+    "image": ["https://github.com/TakenMC/Catppuccin/blob/main/assets/preview.webp"]
+  }
+  
